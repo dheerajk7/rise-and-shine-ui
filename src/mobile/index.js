@@ -1,5 +1,13 @@
+import styled from 'styled-components';
+
+const StyledMobileContainer = styled.div`
+  font-size: 1.5em;
+  text-align: center;
+  background: var(--header-background);
+`;
+
 function MobileContainer() {
-  return <h1>Mobile Contianer</h1>;
+  return <StyledMobileContainer>Mobile Container</StyledMobileContainer>;
 }
 
 export default MobileContainer;
