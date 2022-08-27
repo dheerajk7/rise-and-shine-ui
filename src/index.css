@@ -1,0 +1,12 @@
+:root {
+  --header-background: #edf2f4;
+  --footer-background: #2b2d42;
+  --footer-font: #edf2f4;
+  --header-font: #2b2d42;
+  --body-background: #f4f4f4;
+  --body-font: #2b2d42;
+  --dark-red: #660708;
+  --medium-red: #d80032;
+  --light-red: #ef233c;
+  --gray: #8d99ae;
+}
