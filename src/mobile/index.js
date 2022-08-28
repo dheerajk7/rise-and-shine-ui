@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Header } from './components';
 
 const StyledMobileContainer = styled.div`
   font-size: 1.5em;
@@ -7,7 +8,11 @@ const StyledMobileContainer = styled.div`
 `;
 
 function MobileContainer() {
-  return <StyledMobileContainer>Mobile Container</StyledMobileContainer>;
+  return (
+    <StyledMobileContainer>
+      <Header />
+    </StyledMobileContainer>
+  );
 }
 
 export default MobileContainer;
